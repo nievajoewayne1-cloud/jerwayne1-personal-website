@@ -5,140 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>From Vision to Reality – Jerwayne Nieva</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: black;
-      color: white;
-      text-align: center;
-    }
-    header {
-      background: #111;
-      padding: 25px;
-      border-bottom: 3px solid yellow;
-    }
-    header h1 {
-      color: white;
-      margin: 0;
-    }
-    header p {
-      color: pink;
-      margin: 5px 0;
-    }
-    nav a {
-      color: yellow;
-      margin: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: white;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    img {
-      border-radius: 10px;
-      margin: 10px;
-    }
-    footer {
-      text-align: center;
-      background: #111;
-      color: pink;
-      padding: 20px;
-      margin-top: 20px;
-      border-top: 2px solid yellow;
-    }
-    .cards {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 30px;
-    }
-    .card {
-      background: #1a1a1a;
-      border: 2px solid yellow;
-      border-radius: 10px;
-      padding: 15px;
-      width: 250px;
-      transition: transform 0.3s;
-    }
-    .card:hover {
-      transform: scale(1.05);
-    }
-    .card img {
-      width: 100%;
-      border-radius: 10px;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: black; color: white; text-align: center; }
+    header { background: #111; color: white; text-align: center; padding: 20px; border-bottom: 3px solid yellow; }
+    section { padding: 40px; max-width: 900px; margin: auto; }
+    img { border-radius: 10px; border: 2px solid pink; }
+    h2 { color: yellow; margin-bottom: 20px; }
+    .cards { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+    .card { background: #1a1a1a; padding: 15px; border-radius: 10px; width: 250px; text-align: center; box-shadow: 0 0 10px rgba(255,255,255,0.1); }
+    .card img { width: 100%; height: 150px; object-fit: cover; border-radius: 10px; }
+    footer { text-align: center; background: #111; color: pink; padding: 10px; margin-top: 40px; border-top: 3px solid yellow; }
+    a { color: yellow; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <header>
     <h1>Jerwayne Nieva</h1>
-    <p>From Vision to Reality — Gamer • Leader • Creator</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#hobbies">Hobbies</a>
-      <a href="#profession">Profession</a>
-      <a href="#life">My Life</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <p>From Vision to Reality — My Personal Journey</p>
   </header>
 
   <section id="about">
-    <img src="profile.jpg" alt="Jerwayne Photo" width="180" height="180" style="border:3px solid pink;">
+    <img src="profile.jpg" alt="Jerwayne Nieva" style="width:180px;">
     <h2>About Me</h2>
-    <p><strong>Leadership begins with discipline.</strong><br>
-      I am Jerwayne Maaghop Nieva, a 20-year-old male passionate about hard work, leadership, and growth. I thrive in challenges and aim to inspire others through strategy, dedication, and creativity.
-    </p>
+    <p><strong>Age:</strong> 20 | <strong>Gender:</strong> Male</p>
+    <p>I’m Jerwayne Nieva — a driven individual passionate about leadership, creativity, and strategic thinking. My goal is to lead and inspire others while continuing to grow personally and professionally.</p>
   </section>
 
-  <section id="hobbies" style="background:#111;">
-    <h2>My Hobbies 🎮🔥</h2>
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
     <div class="cards">
       <div class="card">
         <img src="games.jpg" alt="Strategy Games">
         <h3>Strategy Games</h3>
-        <p>I love competitive and strategic games that challenge my decision-making and teamwork.</p>
+        <p>I enjoy competitive gaming that challenges my strategy and focus.</p>
       </div>
       <div class="card">
-        <img src="movies.jpg" alt="Movies">
+        <img src="cooking.jpg" alt="Movies">
         <h3>Movies</h3>
-        <p>Watching movies lets me explore creativity, emotion, and storytelling in a new light.</p>
+        <p>I love watching movies that inspire creativity and imagination.</p>
       </div>
       <div class="card">
-        <img src="cooking.jpg" alt="Cooking">
+        <img src="profession.jpg" alt="Cooking">
         <h3>Cooking</h3>
-        <p>Cooking helps me relax and express creativity through flavors and presentation.</p>
+        <p>Cooking allows me to be creative and explore new flavors.</p>
       </div>
     </div>
   </section>
 
   <section id="profession">
-    <h2>My Profession 🏆</h2>
-    <img src="profession.jpg" alt="Profession" width="500">
-    <p>I aim to become a strong leader and strategist who creates impact through innovation, teamwork, and vision.</p>
+    <h2>My Profession</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="profession.jpg" alt="Leadership">
+        <h3>Leadership</h3>
+        <p>I believe in leading with integrity, passion, and clear vision.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="life" style="background:#111;">
-    <h2>My Life 🌟</h2>
-    <img src="life.jpg" alt="My Life" width="500">
-    <p>"Success is built on hard work, patience, and a dream that never fades."</p>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Me 📩</h2>
-    <p>Email: <a href="mailto:nievajoewayne1@gmail.com" style="color:yellow;">nievajoewayne1@gmail.com</a></p>
-    <p>Facebook: <a href="https://www.facebook.com/share/1JSaZ2VAjH/" style="color:yellow;" target="_blank">Visit My Profile</a></p>
+  <section id="life">
+    <h2>My Life</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="life.jpg" alt="My Life">
+        <h3>My Journey</h3>
+        <p>“If you can change your mind, you can change your life.” — William James</p>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Jerwayne Nieva | All Rights Reserved</p>
+    <p>📧 Contact: <a href="mailto:nievajoewayne1@gmail.com">nievajoewayne1@gmail.com</a> | 
+    🌐 <a href="https://www.facebook.com/share/1JSaZ2VAjH/">Facebook</a></p>
+    <p>© 2025 Jerwayne Nieva. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
-
 
